@@ -1,0 +1,21 @@
+{
+  "name": "wuppernserver",
+  "version": "1.0.0",
+  "description": "the server backend for a wuppern application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Manuel Münstedt",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
